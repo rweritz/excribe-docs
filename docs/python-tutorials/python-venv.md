@@ -1,39 +1,22 @@
-# Learn how to use Python Virtual Environments
+# Recommended practice for managing Python Environments
 
 A Python virtual enviroment contains of both the Python interpreter (e.g. Python 3.10 or Python 3.11) and a folder containing the installed libraries.
-It's a recommended practice to use a seperate Python virtual environment for every Python project
+It's a recommended practice to use a seperate Python virtual environment for every Python project. Furthermore is is recommended to define your dependencies in a `requirements.txt` file.
 
-## Commands
+Within (each of) your Python Project(s) create a new folder `.venv` for the Python virtual enviroment
 
 ```cmd
-mkdocs new [dir-name]
+mkdir .venv
 ```
 
-## Project layout
+To create the Python virtual enviroment you can run the following command
 
-blas
+```cmd
+python -m venv .venv
+```
 
-## bla
+Activate the Python virtual enviroment
 
-A Python virtual enviroment contains of both the Python interpreter (e.g. Python 3.10 or Python 3.11) and a folder containing the installed libraries.
-It's a recommended practice to use a seperate Python virtual environment for every Python project
-
-## bla
-
-A Python virtual enviroment contains of both the Python interpreter (e.g. Python 3.10 or Python 3.11) and a folder containing the installed libraries.
-It's a recommended practice to use a seperate Python virtual environment for every Python project
-
-## bla
-
-A Python virtual enviroment contains of both the Python interpreter (e.g. Python 3.10 or Python 3.11) and a folder containing the installed libraries.
-It's a recommended practice to use a seperate Python virtual environment for every Python project
-
-## bla
-
-A Python virtual enviroment contains of both the Python interpreter (e.g. Python 3.10 or Python 3.11) and a folder containing the installed libraries.
-It's a recommended practice to use a seperate Python virtual environment for every Python project
-
-## bla
-
-A Python virtual enviroment contains of both the Python interpreter (e.g. Python 3.10 or Python 3.11) and a folder containing the installed libraries.
-It's a recommended practice to use a seperate Python virtual environment for every Python project
+```cmd
+.\.venv\Scripts\activate
+```
